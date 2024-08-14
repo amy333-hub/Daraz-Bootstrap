@@ -13,7 +13,7 @@
   </head>
   <body>
     <header class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./image/logo.png" alt="Bootstrap" />
@@ -31,20 +31,20 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
+            <div class="navbar-nav">
+              
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">shoes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Backpack</a>
-              </li>
-              <li class="nav-item">
+              
+  
+                <a class="nav-link" href="#shoes">shoes</a>
+            
+                <a class="nav-link" href="#backpack">Backpack</a>
+              
+                <a class="nav-link" href="#watch">Watch</a>
+              
                 <a class="nav-link" href="#">subscribe</a>
-              </li>
-            </ul>
+              
+            </div>
           </div>
         </div>
       </nav>
@@ -68,7 +68,7 @@
                   </p>
 
                   <h1 class="text-danger">$420</h1>
-                  <button type="button" class="btn btn-danger btn-lg">
+                  <button type="button" class="btn btn-lg" style="background-color: #ff2178;">
                     Buy Now
                   </button>
                 </div>
@@ -119,7 +119,7 @@
                   </p>
 
                   <h1 class="text-danger">$600</h1>
-                  <button type="button" class="btn btn-danger btn-lg">
+                  <button type="button" class="btn-lg" style="background-color: #ff2178;">
                     Buy Now
                   </button>
                 </div>
@@ -163,21 +163,21 @@
           <div class="row gy-5">
             <!-- catagorys -->
             <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="p-3 d-flex align-items-center justify-content-around bg-warning rounded-3">
+              <div class="p-3 d-flex align-items-center justify-content-around rounded-3" style="background-color:#ffa500;">
                 <h1 class="text-white">Watch</h1>
                 <img src="image/watch.png " width="100px">
               </div>
             </div>
             <!-- catagorys -->
             <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="p-3 d-flex align-items-center justify-content-around bg-info">
+              <div class="p-3 d-flex align-items-center justify-content-around" style="background-color: #da70d6;">
                 <h1 class="text-white">Bag</h1>
                 <img src="image/bag.png" width="100px">
               </div>
             </div>
             <!-- catagoys -->
             <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="p-3 d-flex align-items-center justify-content-around bg-success">
+              <div class="p-3 d-flex align-items-center justify-content-around" style="background-color: #0000ff;">
                 <h1 class="text-white">Shoe</h1>
                 <img src="image/shoes.png" width="100px">
               </div>
@@ -191,7 +191,7 @@
       <!-- section -->
 
 
-       <section class="container">
+       <section class="container my-5" id="shoes">
         <h3>Shoe</h3>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -203,7 +203,7 @@
               </div>
               <div>
                 <h3>$120</h3>
-                <button type="button" class="btn btn-danger btn-lg">
+                <button type="button" class="btn btn-lg" style="background-color: #ff2178;">
                   Buy Now &gt; &gt;
                 </button>
                </div>
@@ -218,7 +218,7 @@
               </div>
              <div>
               <h3>$320</h3>
-              <button type="button" class="btn btn-danger btn-lg">
+              <button type="button" class=" btn btn-lg" style="background-color: #ff2178;">
                 Buy Now &gt; &gt;
               </button>
              </div>
@@ -233,7 +233,7 @@
               </div>
               <div>
                 <h3>$350</h3>
-                <button type="button" class="btn btn-danger btn-lg">
+                <button type="button" class=" btn btn-lg" style="background-color: #ff2178;">
                   Buy Now &gt; &gt;
                 </button>
                </div>
@@ -246,8 +246,8 @@
        </section>
        <!-- bag -->
         <section>
-          <section class="container">
-            <h3>Shoe</h3>
+          <section class="container" id="backpack">
+            <h3>Backpack</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
                 <div class="card h-100 border border-0 shadow-lg rounded-3">
@@ -259,7 +259,7 @@
                   </div>
                   <div>
                     
-                    <button type="button" class="btn btn-danger btn-lg">
+                    <button type="button" class="btn btn-lg" style="background-color: #ff2178;">
                       Buy Now &gt; &gt;
                     </button>
                    </div>
@@ -277,7 +277,7 @@
                   </div>
                  <div>
                   
-                  <button type="button" class="btn btn-danger btn-lg">
+                  <button type="button" class="btn btn-lg" style="background-color: #ff2178;">
                     Buy Now &gt; &gt;
                   </button>
                  </div>
@@ -294,7 +294,7 @@
                   </div>
                   <div>
                     
-                    <button type="button" class="btn btn-danger btn-lg">
+                    <button type="button" class="btn  btn-lg" style="background-color: #ff2178;">
                       Buy Now &gt; &gt;
                     </button>
                    </div>
@@ -303,19 +303,19 @@
             </div>
            </section>
            <!-- Watch -->
-           <section class="container">
-            <h3>Shoe</h3>
+           <section class="container" id="watch">
+            <h3>Watch</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
                 <div class="card h-100 border border-0 shadow-lg rounded-3">
-                  <img src="image/" class="card-img-top" alt="...">
+                  <img src="image/images (1).jfif" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">supply 350</h5>
+                    <h5 class="card-title">ROLEX</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                   <div>
-                    <h3>$120</h3>
-                    <button type="button" class="btn btn-danger btn-lg">
+                    <h3>$800</h3>
+                    <button type="button" class="btn btn-lg" style="background-color: #ff2178;">
                       Buy Now &gt; &gt;
                     </button>
                    </div>
@@ -323,14 +323,14 @@
               </div>
               <div class="col">
                 <div class="card h-100 border border-0 shadow-lg rounded-3">
-                  <img src="image/shoe-2.png" class="card-img-top" alt="...">
+                  <img src="image/images (2).jfif" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Nike 360</h5>
+                    <h5 class="card-title">CARTIER</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                   </div>
                  <div>
-                  <h3>$320</h3>
-                  <button type="button" class="btn btn-danger btn-lg">
+                  <h3>$500</h3>
+                  <button type="button" class="btn btn-lg" style="background-color: #ff2178;">
                     Buy Now &gt; &gt;
                   </button>
                  </div>
@@ -338,14 +338,14 @@
               </div>
               <div class="col">
                 <div class="card h-100 border border-0 shadow-lg rounded-3">
-                  <img src="image/shoe-3.png" class="card-img-top" alt="...">
+                  <img src="image/images.jfif" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Red Airmax</h5>
+                    <h5 class="card-title">OMEGA</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                   </div>
                   <div>
-                    <h3>$350</h3>
-                    <button type="button" class="btn btn-danger btn-lg">
+                    <h3>$2400</h3>
+                    <button type="button" class="btn btn-lg" style="background-color: #ff2178;">
                       Buy Now &gt; &gt;
                     </button>
                    </div>
@@ -375,7 +375,7 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 
               </div>
-              <button type="button" class="btn btn-danger btn-lg">
+              <button type="button" class="btn btn-lg" style="background-color: #ff2178;">
                 SUBMIT
               </button>
             </form>
